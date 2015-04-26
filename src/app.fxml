@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="143.0" prefWidth="209.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="isim" text="adinizi girin" />
+            <TextField fx:id="kelime" text="soyleyeceginiz kelimeyi girin" />
+            <Button fx:id="kaydet" mnemonicParsing="false" onMousePressed="#sesAl" onMouseReleased="#sesBitir" text="Kaydet" />
+            <Label text="Kaydet butonuna basılı tuttugunuz surece kayıt alır. Lütfen kayıtları dış seslerin olmadığı ortamda alınız" wrapText="true" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
